@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Seal Bucket Challenge</string>    
+    <string name="app_id">291114531646</string>
+    <string name="interstitial_ad_id">ca-app-pub-8851047421541839/7920284109</string>
+    <string name="interstitial_ad_id_test">ca-app-pub-8851047421541839/6980214909</string>
+</resources>

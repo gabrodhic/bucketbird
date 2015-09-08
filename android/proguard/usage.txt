@@ -1,0 +1,147 @@
+com.protogab.bucketbird.ActionResolver:
+    public abstract void showToast(java.lang.CharSequence,int)
+    public abstract boolean showAlertBoxYesNo(java.lang.String,java.lang.String)
+    public abstract void openUri(java.lang.String)
+    public abstract void showCloseFeedbackDialog()
+    public abstract void initialize()
+    public abstract void trackPageView(java.lang.String)
+    public abstract void stop()
+    public abstract void displayInterstitial()
+    public abstract void getAchievementsGPGS()
+com.protogab.bucketbird.BucketBird:
+    public static final java.lang.String PREFS_NAME
+    private static final java.lang.String PREF_CURRENT_LEVEL
+    private static final java.lang.String PREF_LAUNCH_COUNT
+    public static final java.lang.String PREF_GAMESERVICES_USED
+    public static final java.lang.String PREF_CURRENT_SCORE
+    public static final java.lang.String LEADERBOARD_ID
+    public static final boolean DEV_MODE
+    private static final int MAXIMUM_LEVEL_NUMBER
+    private static final int GAME_SCREEN_LOADING
+    private static final int GAME_SCREEN_PLAYING
+    private static final int GAME_SCREEN_ENDED
+    private static final int GAME_SCREEN_ENDMENU
+    private static final int GAME_SCREEN_POPUP
+    private static final int PATH_TYPE_NONE
+    private static final int PATH_TYPE_LINEAL
+    private static final int PATH_TYPE_SPLINE
+    private static final int MOVE_NAME_ANY
+    private static final int MOVE_NAME_FIGHT
+    private static final int MOVE_NAME_FIGHT2
+    private static final int MOVE_NAME_PASSBY
+    private static final int MOVE_NAME_FEINT
+    private static final int MOVE_NAME_FREEFALL
+    private static final int MOVE_NAME_FEINT_DOUBLE
+    private static final int MOVE_NAME_FEINT_GAMOVR
+    private static final int MOVE_NAME_JUMP
+    private static final int MOVE_NAME_ESCAPE
+    private static final int MOVE_NAME_BUCKET_MOVE
+    private static final int MOVE_NAME_JUMP_SPRING
+    private static final int MOVE_NAME_BUCKET_MOVEREMOVE
+    private static final int MOVE_NAME_BUCKET_CARRY
+    private static final int POSITION_TYPE_NORMAL
+    private static final int POSITION_TYPE_FLYBY
+    private static final int POSITION_TYPE_SMILE
+    private static final int POSITION_TYPE_TONGUE
+    private static final int POSITION_TYPE_HURT
+    private static final int POSITION_TYPE_DEAD
+    private static final int SEAL_POSITION_TYPE_STAND
+    private static final int SEAL_POSITION_TYPE_WALK
+    private static final int SEAL_POSITION_TYPE_STOP
+    private static final int SEAL_POSITION_TYPE_SKI
+    private static final int BOLINDX_RNDMOV_TRUE
+    private static final int BOLINDX_RNDMOV_FALSE
+    private static final int BOLINDX_RNDMOVSUB_TRUE
+    private static final int BOLINDX_RNDMOVSUB_FALSE
+    private static final int BOLINDX_PAUSEMOV_TRUE
+    private static final int BOLINDX_PAUSEMOV_FALSE
+    private static final int BOLINDX_HELPOINT_TRUE
+    private static final int BOLINDX_HELPOINT_FALSE
+    private static final int BOLINDX_FGHTYPEMOV_TRUE
+    private static final int BOLINDX_FGHTYPEMOV_FALSE
+    private static final int BOLINDX_VARIANCECHAN_TRUE
+    private static final int BOLINDX_VARIANCECHAN_FALSE
+    private static final int BOLINDX_VARIANCEHORVERT_TRUE
+    private static final int BOLINDX_VARIANCEHORVERT_FALSE
+    private static final int BOLINDX_SHOWSHIELD_TRUE
+    private static final int BOLINDX_SHOWSHIELD_FALSE
+    private static final int BOLINDX_SHOWADS_TRUE
+    private static final int BOLINDX_SHOWADS_FALSE
+    private static final int BOLINDX_PLAYMUSIC_TRUE
+    private static final int BOLINDX_PLAYMUSIC_FALSE
+    private static final int BOLINDX_SHOWINVISIBLE_TRUE
+    private static final int BOLINDX_SHOWINVISIBLE_FALSE
+    private static final int BOLINDX_SEALMOVENAME_TRUE
+    private static final int BOLINDX_SEALMOVENAME_FALSE
+    private static final int BOLINDX_BOMBSIZE_TRUE
+    private static final int BOLINDX_BOMBSIZE_FALSE
+    private static final int BOLINDX_BIRDWHISTLE_TRUE
+    private static final int BOLINDX_BIRDWHISTLE_FALSE
+    private static final int BOLINDX_FEINTTYPE_TRUE
+    private static final int BOLINDX_FEINTTYPE_FALSE
+    private static final int BOLINDX_SEALMOVENAME2_TRUE
+    private static final int BOLINDX_SEALMOVENAME2_FALSE
+    private static final int VARIANCE_TYPE_HIGH
+    private static final int VARIANCE_TYPE_LOW
+    private static final int CARRYBUCKET_TOTAL_MOVES
+    private static final float FLAP_ANIMATION_SPEED
+    private static final float WALK_ANIMATION_SPEED
+    private static final float TIME_STEP
+    com.badlogic.gdx.graphics.Texture tempTexture
+    com.badlogic.gdx.graphics.g2d.TextureRegion flyBombUpTexture
+    com.badlogic.gdx.graphics.g2d.TextureRegion flyBombDownTexture
+    com.badlogic.gdx.math.Rectangle shotsRectangle
+    com.badlogic.gdx.graphics.g2d.Animation detonationAnimation
+    float accelX
+    float accelY
+    float accelZ
+    1474:1514:int[] getRandomPosRandomVariance(int,int,int,int,int[])
+    1550:1558:int[] getQuadrantHorizontalBounds(int)
+    1568:1576:int[] getQuadrantVerticalBounds(int)
+    2327:2424:void setFightMeMove2()
+    3356:3407:void setFeintMoveGameOver()
+    3415:3518:void setFreefallMove()
+com.protogab.bucketbird.android.AndroidLauncher:
+    protected android.view.View gameView
+    169:175:public void showShortToast(java.lang.CharSequence)
+    180:186:public void showLongToast(java.lang.CharSequence)
+    207:222:public boolean showAlertBoxYesNo(java.lang.String,java.lang.String)
+    229:244:public void openUri(java.lang.String)
+    259:261:public void showToast(java.lang.CharSequence,int)
+    302:358:public void showCloseFeedbackDialog()
+    363:398:private void showCloseFeedbackDialogRateUs()
+    403:440:public void showCloseFeedbackDialogComment()
+    445:519:private void sendFeedback()
+    532:558:public void initialize()
+    565:565:public void trackPageView(java.lang.String)
+    600:603:public void stop()
+    631:631:public void displayInterstitial()
+    705:712:public void getAchievementsGPGS()
+    360:360:static synthetic void access$0(com.protogab.bucketbird.android.AndroidLauncher)
+    443:443:static synthetic void access$1(com.protogab.bucketbird.android.AndroidLauncher)
+com.protogab.bucketbird.android.AndroidLauncher$2
+com.protogab.bucketbird.android.AndroidLauncher$3
+com.protogab.bucketbird.android.AndroidLauncher$5
+com.protogab.bucketbird.android.AndroidLauncher$5$1
+com.protogab.bucketbird.android.AndroidLauncher$6
+com.protogab.bucketbird.android.AndroidLauncher$6$1
+com.protogab.bucketbird.android.AndroidLauncher$6$2
+com.protogab.bucketbird.android.AndroidLauncher$7
+com.protogab.bucketbird.android.AndroidLauncher$7$1
+com.protogab.bucketbird.android.AndroidLauncher$7$2
+com.protogab.bucketbird.android.AndroidLauncher$8
+com.protogab.bucketbird.android.AndroidLauncher$8$1
+com.protogab.bucketbird.android.AndroidLauncher$8$2
+com.protogab.bucketbird.android.AndroidLauncher$9
+com.protogab.bucketbird.android.AndroidLauncher$9$1
+com.protogab.bucketbird.android.BuildConfig
+com.protogab.bucketbird.android.R
+com.protogab.bucketbird.android.R$attr
+com.protogab.bucketbird.android.R$color
+com.protogab.bucketbird.android.R$drawable
+com.protogab.bucketbird.android.R$id
+com.protogab.bucketbird.android.R$integer
+com.protogab.bucketbird.android.R$string
+com.protogab.bucketbird.android.R$style
+com.protogab.bucketbird.android.R$styleable
+com.protogab.bucketbird.android.R$xml

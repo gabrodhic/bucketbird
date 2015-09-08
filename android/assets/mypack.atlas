@@ -1,0 +1,256 @@
+
+mypack.png
+size: 1006,1013
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+background
+  rotate: false
+  xy: 2, 113
+  size: 540, 900
+  orig: 540, 900
+  offset: 0, 0
+  index: -1
+balloon_blue
+  rotate: false
+  xy: 680, 2
+  size: 105, 142
+  orig: 105, 142
+  offset: 0, 0
+  index: -1
+balloon_green
+  rotate: false
+  xy: 787, 2
+  size: 105, 142
+  orig: 105, 142
+  offset: 0, 0
+  index: -1
+balloon_purple
+  rotate: false
+  xy: 894, 2
+  size: 105, 142
+  orig: 105, 142
+  offset: 0, 0
+  index: -1
+bucket_bottom
+  rotate: false
+  xy: 2, 48
+  size: 262, 27
+  orig: 262, 27
+  offset: 0, 0
+  index: -1
+facebook_icon
+  rotate: false
+  xy: 946, 499
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+faucet3
+  rotate: false
+  xy: 544, 61
+  size: 134, 280
+  orig: 134, 280
+  offset: 0, 0
+  index: -1
+info_button
+  rotate: false
+  xy: 946, 447
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+more_button
+  rotate: false
+  xy: 946, 395
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+popup
+  rotate: false
+  xy: 680, 146
+  size: 300, 195
+  orig: 300, 195
+  offset: 0, 0
+  index: -1
+score_board
+  rotate: false
+  xy: 544, 551
+  size: 462, 462
+  orig: 462, 462
+  offset: 0, 0
+  index: -1
+share_icon
+  rotate: false
+  xy: 946, 343
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+splash_floor
+  rotate: false
+  xy: 544, 343
+  size: 400, 206
+  orig: 400, 206
+  offset: 0, 0
+  index: -1
+springboard
+  rotate: false
+  xy: 2, 77
+  size: 300, 34
+  orig: 300, 34
+  offset: 0, 0
+  index: -1
+
+mypack2.png
+size: 1022,1022
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+balloon_red
+  rotate: false
+  xy: 687, 516
+  size: 105, 142
+  orig: 105, 142
+  offset: 0, 0
+  index: -1
+balloon_yellow
+  rotate: false
+  xy: 170, 34
+  size: 105, 142
+  orig: 105, 142
+  offset: 0, 0
+  index: -1
+bird_sprite
+  rotate: false
+  xy: 2, 660
+  size: 801, 160
+  orig: 801, 160
+  offset: 0, 0
+  index: -1
+bucket
+  rotate: false
+  xy: 805, 620
+  size: 217, 200
+  orig: 217, 200
+  offset: 0, 0
+  index: -1
+cancel_button
+  rotate: false
+  xy: 284, 199
+  size: 270, 257
+  orig: 270, 257
+  offset: 0, 0
+  index: -1
+clock
+  rotate: false
+  xy: 931, 498
+  size: 86, 120
+  orig: 86, 120
+  offset: 0, 0
+  index: -1
+faucet
+  rotate: false
+  xy: 284, 2
+  size: 200, 195
+  orig: 200, 195
+  offset: 0, 0
+  index: -1
+level_completed
+  rotate: false
+  xy: 828, 214
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+level_locked
+  rotate: false
+  xy: 788, 67
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
+ok_button
+  rotate: false
+  xy: 556, 199
+  size: 270, 257
+  orig: 270, 257
+  offset: 0, 0
+  index: -1
+pelota
+  rotate: false
+  xy: 2, 178
+  size: 280, 278
+  orig: 280, 278
+  offset: 0, 0
+  index: -1
+play_button
+  rotate: false
+  xy: 794, 483
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+score_button
+  rotate: false
+  xy: 828, 346
+  size: 135, 135
+  orig: 135, 135
+  offset: 0, 0
+  index: -1
+seal_sprite
+  rotate: false
+  xy: 2, 822
+  size: 868, 200
+  orig: 868, 200
+  offset: 0, 0
+  index: -1
+seal_sprite2
+  rotate: false
+  xy: 2, 458
+  size: 683, 200
+  orig: 683, 200
+  offset: 0, 0
+  index: -1
+splash_object
+  rotate: false
+  xy: 2, 12
+  size: 166, 164
+  orig: 166, 164
+  offset: 0, 0
+  index: -1
+splash_water
+  rotate: false
+  xy: 486, 68
+  size: 300, 129
+  orig: 300, 129
+  offset: 0, 0
+  index: -1
+tap_instruc
+  rotate: false
+  xy: 872, 851
+  size: 113, 171
+  orig: 113, 171
+  offset: 0, 0
+  index: -1
+
+mypack3.png
+size: 396,244
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bucket_water
+  rotate: false
+  xy: 2, 2
+  size: 262, 242
+  orig: 262, 242
+  offset: 0, 0
+  index: -1
+level_unlocked
+  rotate: false
+  xy: 266, 114
+  size: 130, 130
+  orig: 130, 130
+  offset: 0, 0
+  index: -1
